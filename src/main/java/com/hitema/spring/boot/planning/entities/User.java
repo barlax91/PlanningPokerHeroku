@@ -28,14 +28,6 @@ public class User {
                 inverseJoinColumns = @JoinColumn(name = "Users_idUsers"))
     private List<Session> sessions;
 
-
-
-/* @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name="user_roles",
-            joinColumns={@JoinColumn(name="users_user_id")},
-            inverseJoinColumns={@JoinColumn(name="roles_idroles")})
-    private List<Role> roles;*/
-
     public User() {
 
     }
